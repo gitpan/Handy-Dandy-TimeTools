@@ -390,26 +390,33 @@ ___AUTOLOADED___
 =pod
 
 =head1 NAME
+
 Handy::Dandy::TimeTools - Get the time in lots of ways, in lots of formats
 
 =head1 VERSION
+
 0.01_8
 
 =head1 @ISA
+
    Exporter
    OOorNO
    Handy::Dandy::TimeTools
 
 =head1 @EXPORT
+
 None by default.
 
 =head1 @EXPORT_OK
+
 All available methods.
 
 =head1 %EXPORT_TAGS
+
    :all (exports all of @EXPORT_OK)
 
 =head1 Methods
+
    stamp()
    to_seconds()
    convert_time()
@@ -430,6 +437,7 @@ All available methods.
    UTC_OFFSET()
 
 =head2 AUTOLOAD-ed methods
+
    convert_time()
    UTC_OFFSET()
    second()
@@ -442,15 +450,19 @@ All available methods.
    dayofyear()
 
 =head1 PREREQUISITES
+
 OOorNO.pm
 
 =head1 AUTHOR
+
 Tommy Butler <cpan@atrixnet.com>
 
 =head1 COPYRIGHT
+
 Copyright(c) 2001-2003, Tommy Butler.  All rights reserved.
 
 =head1 LICENSE
+
 This library is free software, you may redistribute
 and/or modify it under the same terms as Perl itself.
 
