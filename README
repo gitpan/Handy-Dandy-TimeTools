@@ -1,0 +1,50 @@
+Handy::Dandy version 0.01_8
+===========================
+
+DESCRIPTION
+
+Miscellaneous simple, reusable code routines.
+
+
+CHANGES IN LAST FEW RELEASES
+(listed in reverse cronological order by date and subversion)
+
+   0.01_8
+      12/23/02, 2:12 pm
+      Initial release of Handy::Dandy::TimeTools.pm
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+On windows machines use nmake rather than make; those running cygwin don't have
+to worry about this.  If you don't know what cygwin is, use nmake and check out
+<URL: http://cygwin.com/> after you're done installing this module if you want
+to find out.
+
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+   OOorNO.pm                  v0.00_2 or better
+   Handy::Dandy.pm            v1.30_6 or better
+
+
+AUTHOR
+   Tommy Butler <cpan@atrixnet.com>
+
+
+COPYRIGHT
+   Copyright (C) Tommy Butler 2001-2003, all rights reserved.
+
+
+LICENCE
+   This library is free software, you may redistribute it and/or modify it
+   under the same terms as Perl itself.
